@@ -20,6 +20,13 @@
             "JoaoCastro\\FilamentCms\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "JoaoCastro\\FilamentCms\\FilamentcmsServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": false
 }
